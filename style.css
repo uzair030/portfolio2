@@ -1,0 +1,25 @@
+.navbar{
+  background:linear-gradient(to right, #777568,#7d7858) !important;
+}
+
+.talk-btn{
+  border: 2px solid white ;
+  
+
+}
+.talk-btn:hover{
+    background:linear-gradient(to right, #363532,#7d7858) !important;
+
+}
+
+
+.text-shadow{
+  text-shadow: 2px 1px 1px white;
+  font-size: 30px !important;
+}
+
+
+
+.project{
+  font-size: 40px !important;
+}
