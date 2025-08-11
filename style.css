@@ -25,9 +25,18 @@
 }
 
 
-@media (min-width:570px) {
+@media (min-width:470px)and(max-width:992px) {
   #image img{
     width: 500px;
     height: 300px;
+  }
+}
+@media (max-width: 576px) {
+  #set {
+    flex-direction: column; /* ek ke neeche ek card */
+    align-items: center; /* center me laane ke liye */
+  }
+  #set .card {
+    width: 90% !important; /* screen ke hisaab se fit */
   }
 }
