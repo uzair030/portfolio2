@@ -23,3 +23,11 @@
 .project{
   font-size: 40px !important;
 }
+
+
+@media (min-width:570px) {
+  #image img{
+    width: 500px;
+    height: 300px;
+  }
+}
